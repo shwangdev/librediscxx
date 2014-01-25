@@ -1,0 +1,14 @@
+A Redis Client Library For C++
+
+Author:
+zhangyafeikimi
+
+Features:
+1. all mode supported(pipeline, trasaction, subscribe, monitor)
+2. client connection pool
+3. fixed-size partition client
+
+Build and Installation:
+1. librediscxx depends on boost(>=1.35) and libboost_thread is required to be linked into the final binaries.
+2. Building in linux(only supported) requires SCons.
+3. Windows build is no longer maintained.
